@@ -1,0 +1,7 @@
+:root {
+  --ligth-yellow: #f5ebd2;
+}
+
+body {
+  background-color: var(--ligth-yellow);
+}
