@@ -1,7 +1,68 @@
 :root {
   --ligth-yellow: #f5ebd2;
+  --dark-yellow: #f1c34a;
+  --ligth-green: #b0c472;
 }
 
 body {
   background-color: var(--ligth-yellow);
+  width: 100%;
+}
+
+nav {
+  margin: 20px 0;
+  position: fixed;
+  width: 95%;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+span.logo {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 30px;
+  font-weight: bolder;
+  margin: 0;
+  margin-left: 40px;
+}
+
+span.nav-links-and-btn {
+  flex-wrap: inherit;
+}
+
+ul.nav-links {
+  display: inline;
+  position: relative;
+  top: 15px;
+  padding-left: 0;
+}
+
+ul.nav-links li {
+  color: black;
+  float: right;
+  list-style-type: none;
+  padding: 0 10px;
+}
+a {
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+button.btn-nav {
+  background-color: var(--dark-yellow);
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+  position: relative;
+  top: 5px;
+}
+
+.btn-nav:hover {
+  background-color: var(--ligth-green);
+  cursor: pointer;
 }
