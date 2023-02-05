@@ -18,6 +18,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   flex-wrap: nowrap;
+  height: 40px;
 }
 
 span.logo {
@@ -30,7 +31,6 @@ span.logo {
 }
 
 span.nav-links-and-btn {
-  flex-wrap: inherit;
 }
 
 ul.nav-links {
@@ -44,7 +44,7 @@ ul.nav-links li {
   color: black;
   float: right;
   list-style-type: none;
-  padding: 0 10px;
+  padding: 0 15px;
 }
 a {
   color: black;
@@ -60,9 +60,25 @@ button.btn-nav {
   border-radius: 5px;
   position: relative;
   top: 5px;
+  margin-right: 10px;
 }
 
 .btn-nav:hover {
   background-color: var(--ligth-green);
   cursor: pointer;
+}
+
+div.container {
+  padding-top: 120px;
+  margin: 10px 60px;
+}
+
+h1 {
+  font-size: 44px;
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
 }
