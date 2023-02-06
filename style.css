@@ -2,10 +2,22 @@
   --ligth-yellow: #f5ebd2;
   --dark-yellow: #f1c34a;
   --ligth-green: #b0c472;
+  --accent-brown: #9a4726;
+  --logo-font: "Secular One", sans-serif;
 }
 
 body {
   background-color: var(--ligth-yellow);
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.wave-container > svg {
+  position: relative;
+  margin-top: 0;
+  z-index: -1;
+  background-color: white;
+
   width: 100%;
 }
 
@@ -22,8 +34,8 @@ nav {
 }
 
 span.logo {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  color: var(--accent-brown);
+  font-family: var(--logo-font);
   font-size: 30px;
   font-weight: bolder;
   margin: 0;
@@ -52,8 +64,10 @@ a {
   text-decoration: none;
 }
 
-button.btn-nav {
+.btn-nav {
   background-color: var(--dark-yellow);
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+
   padding: 10px 15px;
   font-size: 16px;
   font-weight: 600;
@@ -68,17 +82,63 @@ button.btn-nav {
   cursor: pointer;
 }
 
+/* main container 1 */
 div.container {
-  padding-top: 120px;
-  margin: 10px 60px;
+  background-color: var(--ligth-yellow);
+  padding-top: 150px;
+  margin: 10px 20px 10px 120px;
+  height: 550px;
+}
+
+.col-5 {
+  margin-top: 60px;
 }
 
 h1 {
-  font-size: 44px;
+  font-size: 54px;
   font-weight: 900;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-p {
+p.main-pg-p {
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 1.75;
 }
+
+.main-page-discount {
+  color: var(--accent-brown);
+  font-weight: 900;
+  font-size: larger;
+}
+.stop-overpaying-btn {
+  width: 50%;
+  font-size: 24px;
+  font-weight: 700;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.food-img-main {
+  width: 700px;
+  height: 400px;
+}
+
+.second-container {
+  height: 800px;
+  background-color: white;
+}
+
+/* is animate */
+/* @keyframes animateWave {
+  0% {
+    transform: scale(1, 0);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+.wave-container > svg {
+  display: block;
+  transform-origin: rise;
+  animation: animateWave 1000ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
+} */

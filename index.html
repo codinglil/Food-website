@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -41,19 +47,35 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-6">
+        <div class="col-5">
           <h1>
             Stop overpaying <br />
             groceries
           </h1>
-          <p>
+          <p class="main-pg-p">
             Get organic produce and sustainably sourced <br />
             groceries delivered at
             <b class="main-page-discount">up to 40% off</b> <br />
             store prices.
           </p>
+          <button class="btn-nav stop-overpaying-btn">
+            <a href="#"> Get Started</a>
+          </button>
+        </div>
+        <div class="col-7">
+          <img class="food-img-main" src="img/main-img.jpg" alt="food image" />
         </div>
       </div>
     </div>
+    <div class="wave-container">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#f5ebd2"
+          fill-opacity="0.8"
+          d="M0,224L34.3,202.7C68.6,181,137,139,206,133.3C274.3,128,343,160,411,170.7C480,181,549,171,617,149.3C685.7,128,754,96,823,101.3C891.4,107,960,149,1029,170.7C1097.1,192,1166,192,1234,192C1302.9,192,1371,192,1406,192L1440,192L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"
+        ></path>
+      </svg>
+    </div>
+    <div class="second-container"></div>
   </body>
 </html>
