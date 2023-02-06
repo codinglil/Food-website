@@ -17,8 +17,6 @@ body {
   margin-top: 0;
   z-index: -1;
   background-color: white;
-
-  width: 100%;
 }
 
 nav {
@@ -87,7 +85,7 @@ div.container {
   background-color: var(--ligth-yellow);
   padding-top: 150px;
   margin: 10px 20px 10px 120px;
-  height: 550px;
+  height: 600px;
 }
 
 .col-5 {
@@ -113,6 +111,7 @@ p.main-pg-p {
 }
 .stop-overpaying-btn {
   width: 50%;
+  margin-top: 20px;
   font-size: 24px;
   font-weight: 700;
   box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
@@ -124,7 +123,7 @@ p.main-pg-p {
 }
 
 .second-container {
-  height: 800px;
+  height: 200px;
   background-color: white;
 }
 
