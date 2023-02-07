@@ -3,6 +3,8 @@
   --dark-yellow: #f1c34a;
   --ligth-green: #b0c472;
   --accent-brown: #9a4726;
+  --accent-green: #2e854c;
+
   --logo-font: "Secular One", sans-serif;
 }
 
@@ -99,12 +101,12 @@ h1 {
 }
 
 p.main-pg-p {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 20px;
   line-height: 1.75;
 }
 
-.main-page-discount {
+.main-page-discount-highlight {
   color: var(--accent-brown);
   font-weight: 900;
   font-size: larger;
@@ -161,7 +163,7 @@ p.main-pg-p {
 
 h3 {
   display: inline;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 600;
 }
 
@@ -169,9 +171,9 @@ p.join {
   margin-left: 55px;
   margin-top: 10px;
   font-size: 18px;
-  font-family: "Times New Roman", Times, serif;
-  line-height: 1.75;
-  letter-spacing: 1.3px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 1.5;
+  letter-spacing: 1px;
 }
 
 p.join-bottom-note {
@@ -179,4 +181,10 @@ p.join-bottom-note {
   margin-top: 20px;
   letter-spacing: 0.5;
   font-style: italic;
+}
+
+.join-features-highlight {
+  color: var(--accent-green);
+  font-weight: 900;
+  font-size: larger;
 }
