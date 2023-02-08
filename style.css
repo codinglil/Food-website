@@ -190,8 +190,8 @@ p.join-bottom-note {
 }
 
 .running-line-text {
-  background-color: var(--accent-brown);
-  color: black;
+  background-color: #dea455;
+
   font-family: Georgia, "Times New Roman", Times, serif;
   position: relative;
   overflow: hidden;
@@ -205,5 +205,5 @@ marquee {
   line-height: 1.5;
   align-items: center;
   padding-top: 10px;
-  color: var(--ligth-yellow);
+  color: black;
 }
