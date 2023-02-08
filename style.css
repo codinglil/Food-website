@@ -157,7 +157,7 @@ p.main-pg-p {
   background-color: #b0c472;
   padding: 5px;
   border-radius: 30px;
-  transform: skew(10deg, 5deg);
+  transform: skew(2deg, 3deg);
   margin-right: 20px;
 }
 
@@ -187,4 +187,23 @@ p.join-bottom-note {
   color: var(--accent-green);
   font-weight: 900;
   font-size: larger;
+}
+
+.running-line-text {
+  background-color: var(--accent-brown);
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  position: relative;
+  overflow: hidden;
+  height: 65px;
+}
+
+marquee {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.5;
+  align-items: center;
+  padding-top: 10px;
+  color: var(--ligth-yellow);
 }
