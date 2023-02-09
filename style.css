@@ -42,9 +42,6 @@ span.logo {
   margin-left: 40px;
 }
 
-span.nav-links-and-btn {
-}
-
 ul.nav-links {
   display: inline;
   position: relative;
@@ -147,7 +144,7 @@ p.main-pg-p {
   padding-left: 75px;
   margin-top: -90px;
 }
-.col-4 {
+.join-section-col {
   border-right: 2px solid black;
   padding-right: 0;
 }
@@ -206,4 +203,48 @@ marquee {
   align-items: center;
   padding-top: 10px;
   color: black;
+}
+
+/* third-section explore*/
+.third-container {
+  padding-left: 80px;
+  margin: 0 auto 30px 30px;
+}
+h1.explore-section-title {
+  font-size: 46px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+h4.explore-section-description {
+  text-align: center;
+  margin: 20px auto;
+  font-weight: normal;
+}
+
+div.explore-section-col {
+}
+img.explore-img {
+  display: flex;
+  margin: 20px 5px;
+  width: 85%;
+
+  display: block;
+  align-content: center;
+  border-radius: 30px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+div.third-container h3 {
+  font-size: 18px;
+}
+
+.visit-btn {
+  width: 25%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 60px;
+  font-size: 24px;
+  font-weight: 700;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
 }
